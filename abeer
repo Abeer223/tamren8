@@ -1,0 +1,58 @@
+public class Employee {
+
+
+    int etmp_ID;
+    String name;
+    String depart;
+    double salary;
+    double bonus;
+    boolean resuden;
+
+    public Employee() {
+        etmp_ID =123456789;
+        name = "ahmad";
+        depart = " 7 :00 ";
+        bonus = 200;
+        resuden = true;
+    }
+    public void setEtmp_ID(int x){
+        etmp_ID =x;
+    }
+    public void setName(String c){
+        name =c;
+    }
+    public void setDepart(String h){
+        depart =h;
+    }
+    public void setSalary(double b){
+        salary =b;
+    }
+    public void setBonus( double f, double k){
+        salary =f;
+        bonus =k;
+    }
+
+
+    public void Employee(int x , String n ){
+        etmp_ID =x;
+        name =n;
+    }
+    public void Employee(int y, String N, boolean r) {
+        etmp_ID =y;
+        name= N;
+        resuden =r;
+    }
+    public void Employee(int o , String p, String d,double s, double b ,boolean h){
+        etmp_ID = o;
+        name = p;
+        depart =d;
+        salary =s;
+        bonus = b;
+        resuden =h;
+
+    }
+    public void print_Emp_dara(){
+        System.out.println("etmpid = "+ etmp_ID  + "name =" + name + "salary =" +  salary +  "bouns" + bonus + "depart =" + depart);
+    }
+
+}
